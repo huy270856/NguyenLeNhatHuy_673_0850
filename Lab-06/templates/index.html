@@ -30,23 +30,24 @@
         .menu a {
             display: block;
             padding: 15px;
-            background: #4CAF50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             text-align: center;
             font-size: 18px;
         }
-        .menu a:hover {
-            background: #45a049;
-        }
+        .transposition { background: #2196F3; }
+        .ecc { background: #FF9800; }
+        .transposition:hover { background: #1976D2; }
+        .ecc:hover { background: #F57C00; }
     </style>
 </head>
 <body>
     <div class="menu">
         <h1>🔐 Cipher Application</h1>
         <ul>
-            <li><a href="/transposition">Transposition Cipher</a></li>
+            <li><a href="/transposition" class="transposition">Transposition Cipher</a></li>
+            <li><a href="/ecc" class="ecc">ECC - Elliptic Curve Cryptography</a></li>
         </ul>
     </div>
 </body>
